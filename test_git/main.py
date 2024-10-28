@@ -1,5 +1,5 @@
 def test(r):
-    if r = 1:
+    if r == 1:
         print(True)
     print(False)
     
