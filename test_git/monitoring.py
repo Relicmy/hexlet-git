@@ -1,5 +1,5 @@
-def monitoring(*args, **kwargs):
-    if args:
+def monitoring(a=None):
+    if a:
         print("Параметры переданы")
     else:
         print("Параметры не переданы")
