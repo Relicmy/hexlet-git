@@ -1,6 +1,6 @@
 def count_number(start_number):
-    for _ in range(start_number, 100 + 1):
-        print(_)
+    for i in range(start_number, 100 + 1):
+        print(i)
         
         
         
