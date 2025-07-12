@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон (круг, символизирующий единство) -->
+  <circle cx="150" cy="150" r="140" fill="#f5f5f5" stroke="#d4af37" stroke-width="4"/>
+  
+  <!-- Лавровый венок (символ победы) -->
+  <path d="M80,120 Q150,60 220,120 Q260,150 220,180 Q150,240 80,180 Q40,150 80,120Z" 
+        fill="none" stroke="#2a6522" stroke-width="8" stroke-linejoin="round"/>
+  
+  <!-- Олимпийский факел (стилизованный) -->
+  <path d="M140,180 L140,80 L160,80 L160,180" fill="none" stroke="#d4af37" stroke-width="6"/>
+  <path d="M135,80 L165,80 L150,50Z" fill="#d4af37" stroke="#b8860b" stroke-width="2"/>
+  <circle cx="150" cy="65" r="15" fill="#ff8c00" opacity="0.8">
+    <animate attributeName="r" values="15;18;15" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Надпись (можно заменить на название бренда) -->
+  <text x="150" y="280" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#333">OLYMPIA</text>
+  
+  <!-- Декоративные элементы (греческий меандр) -->
+  <path d="M50,150 H70 M80,150 H100 M110,150 H130 M170,150 H190 M200,150 H220 M230,150 H250" 
+        stroke="#333" stroke-width="3" stroke-linecap="square"/>
+</svg>
